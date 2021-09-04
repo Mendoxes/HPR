@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,8 +9,442 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.firstPic{
+
+  width: 36%;
+  position: absolute;
+  top: 28%;
+  left:10%;
+  transition: all 2s;
+  background-color: rgb(173, 79, 79);
+  border-radius: 221px;
+  border: none;
+  cursor:pointer;
+  transition: all 1s;
+
+}
+
+.firstPicP{
+  position: absolute;
+    top: 60%;
+    left: 9%;
+    width: 20%;
+    border: solid 1px;
+    padding: 5px;
+    background-color: #d3d3d342;
+    box-shadow: 10px 10px 8px 10px #888888;
+transition: all 1s;
+font-style: italic;
+}
+
+.firstPicP:hover{
+
+  box-shadow: none;
+  border:solid 2px red;
+  background-color: white;
+  font-size: 1.3rem;
+  width:25%;
+  font-style:normal;
+  cursor:grab;
+}
+.firstPicP2:hover{
+
+  box-shadow: none;
+  border:solid 2px red;
+  background-color: white;
+  font-size: 1.3rem;
+  width:25%;
+  font-style:normal;
+  cursor:grab;
+}
+.firstPicP3:hover{
+
+  box-shadow: none;
+  border:solid 2px red;
+  background-color: white;
+  font-size: 1.3rem;
+  width:25%;
+  font-style:normal;
+  cursor:grab;
+}
+
+
+.firstPicP2{
+  position: absolute;
+    top: 60%;
+    left: 39%;
+    width: 20%;
+    border: solid 1px;
+    padding: 5px;
+    background-color: #d3d3d342;
+    box-shadow: 10px 10px 8px 10px #888888;
+    transition: all 1s;
+    font-style: italic;
+    
+}
+
+
+.firstPicP3{
+  position: absolute;
+    top: 60%;
+    left: 67%;
+    width: 20%;
+    border: solid 1px;
+    padding: 5px;
+    background-color: #d3d3d342;
+    box-shadow: 10px 10px 8px 10px #888888;
+    transition: all 1s;
+font-style: italic;
+
+}
+
+.firstPic:hover{
+  background-color: rgb(50 231 136);
+  border-radius: 221px;
+  border: none;
+  transition: all 2s;
+}
+.firstPic2:hover{
+  background-color: rgb(50 231 136);
+  border-radius: 8px;
+  border: none;
+}
+.firstPic3:hover{
+  background-color: rgb(50 231 136);
+  border-radius: 221px;
+  border: none;
+}
+
+
+.firstPic2{
+
+  width: 36%;
+  position: absolute;
+  top: 28%;
+  left:30%;
+  background-color: rgb(173, 79, 79);
+  border-radius: 138px;
+  border: none;
+  cursor:pointer;
+  transition: all 1s;
+
+
+}
+
+
+.firstPic3{
+
+  width: 36%;
+  position: absolute;
+  top: 28%;
+  left:50%;
+  background-color: rgb(173, 79, 79);
+  border-radius: 221px;
+  border: none;
+  cursor:pointer;
+  transition: all 1s;
+
+}
+
+.App-particles__container{background-color:#011d2b;
+height: 100vh;}
+.App-particles__container2{background-color:#1e1e22;
+  height: 100vh;}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.animation-reset-button{background-color: transparent;
+  border:none;
+opacity:0;}
+
+.sacramento{
+  font-family: "Sacramento";
+  color:white;
+  position: absolute;
+  top:58%;
+  left:34%;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2.7rem;
+  border-radius: 3rem;
+  opacity:0;
+ 
+  animation: fadeInSl 10s ease-out ;
+  animation-fill-mode: forwards;
+}
+
+.Navi{
+  color:#0b4569;
+opacity:0;
+  animation: fadeIn 3s;
+  animation-fill-mode: forwards; 
+  background-color: #011826!important;
+}
+.particle-effect-button{background-color: transparent;
+border:none}
+
+.buttons-div-container{
+  position: absolute;
+  top:38%;
+  left:40%;
+ font-family: "Anton";
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 6rem;
+  border-radius: 3rem;
+  opacity:0;
+  text-transform:uppercase;
+  animation: fadeIn 3s ease-out, colorB 17s ;
+  animation-fill-mode: forwards;
+
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  
+  100% {opacity:1; }
+}
+
+@keyframes fadeInSl {
+  0% {opacity:0;}
+  40%{opacity:0;}
+  100% {opacity:1; }
+}
+@keyframes colorB {
+  0% {color:rgb(46, 41, 124);}
+  100% {color:white;}
+}
+
+@keyframes moveRight {
+  0% {left: 70%}
+  100% {left:0%}
+}
+
+@keyframes moveLeft {
+  0% {right: 70%}
+  100% {right:0%;}
+}
+
+@keyframes moveDown {
+  0% {top: 0%}
+  100% {top:20%;}
+}
+.bigImg{width:100%}
+
+.mainText{
+  /* position: absolute; */
+  background-color: transparent;
+  top:38%;
+  left:40%;
+ font-family: "Anton";
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 6rem;
+  border-radius: 3rem;
+  opacity:0;
+  text-transform:uppercase;
+  animation: fadeIn 3s ease-out, colorB 17s ;
+  animation-fill-mode: forwards;
+}
+
+.moveMe{
+  
+  position: relative;
+animation:moveRight 4s;
+animation-fill-mode: forwards;
+}
+
+.moveMe2{
+  
+  position: relative;
+animation:moveLeft 4s;
+animation-fill-mode: forwards;
+}
+.moveMe3{
+  
+  position: relative;
+animation:moveDown 4s;
+animation-fill-mode: forwards;
+}
+
+
+
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes shrinkk{
+
+  0%{width:50%}
+  100%{width:0%}
+}
+
+@keyframes disa{
+
+  0%{opacity:1}
+  100%{opacity:0}
+}
+
+
+.multiD{
+margin:2rem;
+display:flex;
+  position:relative;
+  background-color: white;
+  border: solid 1px darkslategrey;
+}
+.multiD:hover{
+   /* Start the shake animation and make the animation last for 0.5 seconds */
+   animation: shake 3s;
+
+   /* When the animation is finished, start again */
+   animation-iteration-count: 1;
+-webkit-animation: neon3 2s;
+
+}
+
+.multiDD{
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 12s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+
+
+}
+
+.redS{
+  color:red;
+  animation:shrinkk 5s;
+  animation-fill-mode: forwards;
+}
+
+.redSS{
+  color:red;
+  animation:shrinkk 5s;
+}
+
+
+
+.firstS{
+  z-index: 200;
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: 'Anton';
+  cursor:pointer;
+  animation: glow 1s ease-in-out infinite alternate;
+  transition: 2s;
+}
+
+
+.firstSS{
+  z-index: 200;
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: 'Anton';
+  cursor:pointer;
+  animation: glow 1s ease-in-out infinite alternate;
+  transition: 2s;
+
+
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #5c30c2, 0 0 40px #2c5ba0, 0 0 50px #6d30bd, 0 0 60px #6f55e4, 0 0 70px #7d4dca;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.op{
+  opacity:0;
+}
+
+.blackD{
+  
+  height: 100vh;
+  width:50%;
+  background-color: black;
+  color:white;
+  text-align: center;
+z-index:343;
+}
+
+
+.redD{
+  position:absolute;
+  z-index: 233223;
+    top:0; right:0; 
+  
+  height: 100vh;
+  width:50%;
+  background-color: black;
+}
+
+.father{
+  transition: all 2s;
+}
+
+.title1,.title2{
+  position: absolute;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Anton";
+  text-transform: uppercase;
+  padding: 10px;
+  color: #0d3346;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0rem;
+  left: 31%;
+  transition: all 1s;
+}
+
+.title2{
+  left:40%;
+}
+
+
+
+
+.text1{
+  width: 50%;
+    border: solid 1px lightslategrey;
+    letter-spacing: 2px;
+    font-style: italic;
+    border-radius: 3px;
+    padding: 10px;
+    margin:2px;
+    box-shadow: 10px 10px 8px 10px #888888;
+    flex: 0 0 390px
+}
+
+.ok22{
+
+  padding:9px;
 }
